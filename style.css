@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.weather{
+    height: 100vh;
+}
+.current{
+    height: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.week{
+    height: 100%;
+    background-color: rebeccapurple;
+    display: none;
+}
+.day{
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    border: 1px solid black;
+}
